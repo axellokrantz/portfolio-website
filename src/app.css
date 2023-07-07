@@ -1,0 +1,43 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+  }
+
+  .headline-1 {
+    font-size: 35px;
+    font-weight: medium;
+    text-align: left;
+    color: rgb(20, 20, 20);
+    line-height: 1.25;
+    padding-bottom: 20px;
+  }
+
+  .headline-2 {
+    font-size: 35px;
+    font-weight: medium;
+    text-align: left;
+    color: rgb(20, 20, 20);
+    line-height: 1.25;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  @media (max-width: 767px) { 
+    .headline-2 {
+      font-size: 1.5rem; /* Decrease the font size for smaller screens */
+    }
+  }
+
+  .tag{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    color: rgb(20, 20, 20);
+    line-height: 1.25;
+    padding: 0px;
+    margin: 0px;
+  }
