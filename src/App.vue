@@ -10,6 +10,7 @@
       </div>
     </div>
   </div>
+
 </template>
 
 <script>
@@ -18,11 +19,13 @@ import './app.css';
 import Navigation from './components/app-navigation.vue'
 import Logotype from './components/app-logo.vue'
 
+
 export default {
   name: 'App',
   components: {
     Navigation,
     Logotype,
+
   }
 }
 </script>

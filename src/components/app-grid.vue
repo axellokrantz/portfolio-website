@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-lg-4 col-md-6 col-sm-12 custom-col" v-for="(image, index) in images" :key="index">
         <a :href="getImageUrl(index)">
-          <img :src="require(`@/assets/thumbnail${image.id}.png`)" class="img-fluid custom-img-thumbnail" style="width: 100%;">
+          <img :src="require(`@/assets/thumbnail${image.id}`)" class="img-fluid custom-img-thumbnail" style="width: 100%;">
         </a>
         <p class="image-text">{{ imageText(index) }}</p>
       </div>
@@ -16,12 +16,12 @@ export default {
   data() {
     return {
       images: [
-        { id: 1, text: "Budget Bass Line 303" },
-        { id: 2, text: "Smart Brew" },
-        { id: 3, text: "Steganography" },
-        { id: 4, text: "Cyberjammer" },
-        { id: 5, text: "Image 5" },
-        { id: 6, text: "Image 6" }
+        { id: "1.png", text: "Citric-03" },
+        { id: "2.png", text: "Smart Brew" },
+        { id: "3.gif", text: "Image Steganography" },
+        { id: "4.png", text: "Cyberjammer" },
+        { id: "5.png", text: "Image 5" },
+        { id: "6.png", text: "Image 6" }
       ]
     };
   },

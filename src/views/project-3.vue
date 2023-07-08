@@ -1,10 +1,9 @@
 <template>
     <div>
       <div class="row">
-        <div class="col-8">
-          <h1 class="headline-1">
-            Steganography
-          </h1>
+        <div class="col-lg-6">hej</div>
+        <div class="col-lg-6">
+          <img src="@/assets/steganography1.png" class="image">
         </div>
       </div>
     </div>
@@ -17,3 +16,9 @@ export default {
   name: 'project-3',
 };
 </script>
+
+<style>
+.image{
+  width:100%;
+}
+</style>

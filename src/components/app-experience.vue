@@ -12,10 +12,8 @@
           <div class="col-lg-9 col-sm-12">
             <p class="headline-2">
               <a :href="experience.companyWebsite">{{ experience.company }}</a>
-              <br>
             </p>
             <p class="body-copy">{{ experience.role }}</p>
-            <br>
           </div>
         </div>
       </div>

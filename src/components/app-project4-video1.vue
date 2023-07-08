@@ -16,13 +16,12 @@ export default {
 </script>
 
 <style scoped>
-.container {
-  padding-left: 5px;
-  padding-right: 5px;
-}
 
 video {
   width: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 50px;
 }
 
 

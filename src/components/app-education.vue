@@ -12,10 +12,10 @@
           <div class="col-lg-9 col-sm-12">
             <p class="headline-2">
               <a :href="education.schoolWebsite">{{ education.school }}</a>
-              <br>
+
             </p>
             <p class="body-copy">{{ education.degree }}</p>
-            <br>
+
           </div>
         </div>
       </div>

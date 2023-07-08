@@ -3,7 +3,7 @@
       <div class="row">
         <div class="col-8">
           <div class="headline-1">
-            Former art director pursuing computer science at KTH Royal Institute of Technology.
+            Axel Lokrantz Månson is a former art director curently pursuing computer science at KTH Royal Institute of Technology.
           </div>
         </div>
       </div>
