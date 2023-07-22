@@ -26,7 +26,7 @@
                 <br><br>
                 <p class="body-copy">
                     Link to program and GitHub repository can be found <a class="body-copy" href="https://github.com/axellokrantz/DH2642-cyber-jammer">here</a>
-                <a class="material-symbols-outlined" href="https://github.com/axellokrantz/DH2642-cyber-jammer">arrow_outward</a>
+                <a class="material-symbols-outlined" href="https://github.com/axellokrantz/IV1013-computer-security/tree/main/steganography">arrow_outward</a>
                 <br>
                 <span class="tag java">Java</span> 
                 </p>
@@ -52,9 +52,6 @@ export default{
   display: block;
   margin: 0 auto;
   width: 80%;
-}
-
-.first-col{
 }
 
 .java::before {
