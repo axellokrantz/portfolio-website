@@ -19,7 +19,7 @@
         LinkedIn Profile
       </a>
       <br>
-      <a href="https://linkedin.com/in/axellokrantz">
+      <a href="https://github.com/axellokrantz">
         GitHub Portfolio
       </a>
     </p>
