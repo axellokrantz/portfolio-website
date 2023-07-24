@@ -1,19 +1,19 @@
 <template>
-    <div>
-      <div class="row">
-        <div class="col-8">
-          <h1 class="headline-1">
-            Smart Brew
-          </h1>
-        </div>
-      </div>
-    </div>
-  </template>
+  <div>
+    <Introduction/>
+    <Carousel/>
+  </div>
+
+</template>
 
 <script>
 import '@/app.css';
+import Introduction from '@/components/app-project2-introduction.vue'
+import Carousel from '@/components/app-project2-carousel.vue'
+
 
 export default {
   name: 'project-2',
+  components: {Introduction, Carousel}
 };
 </script>

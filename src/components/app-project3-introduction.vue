@@ -4,9 +4,8 @@
         <div class="row">
             <div class="col-lg-6 first-col">
                 <p class="headline-1">
-                    Image steganography is the practice of concealing information within an image to avoid detection.
-                    Steganography can be used to hide any type of digital content, including text, image, video, or audio.
-                    That hidden data is then extracted at its destination.
+                    Steganography is the practice of concealing information within a medium to avoid detection.
+                    As part of the 'Computer Security IV1013' course at KTH I created a steganographic image generator.
                 </p>
             </div>
             <div class="col-lg-6">
@@ -15,10 +14,10 @@
         <div class="row">
             <div class="col-lg-6">
                 <p class="body-copy">
-                This program hides data in the least significant bits of an image's pixels. A pixel holds the value of BGR, (blue, green, red) each color is 1 byte each. Meaning at most the user could store 24 bits of data in each pixel, but the pixel would then be heavily altered colorwise.<br><br>
-                Suppose you want to conceal n bits of data in each color level of a pixel. Then you could use the following scheme. Say that you want to conceal the data value v in a color level c. The program then alters the color level slightly so that it becomes c', such that c' mod 2^n = v. To extract the concealed data, the program takes the color level modulo 2^n.<br><br>
+                This program hides data in the least significant bits of an image's pixels. A pixel holds the value of BGR, (blue, green, red) with the data of 3 bytes. Meaning at most the user could store 24 bits of data in each pixel, but the pixel would then be heavily altered colorwise.<br><br>
+                Say that you want to conceal the data value <i>v</i> in a color level <i>c</i>. The program then alters the color level slightly so that it becomes c', such that c' mod 2<sup>n</sup> = v. To extract the concealed data <i>v</i>, the program takes the color level mod 2<sup>n</sup>.<br><br>
                 <img src="@/assets/steganography2.png" class="centered-image"><br><br>
-                The program takes two files as input: one data file with the data to be concealed, and one target file, the image, and generates a third file as output with the result. The program conceals the data file in the data of the target file and writes the result to the output file. The n value is a parameter of the program, controlling how much data is stored in each color level.
+                The program takes two files as input: one data file with the data to be concealed, and one target file, the image, and generates a third file as output with the result. The program conceals the data file in the target file and writes the result to the output file. The value <i>n</i> is a parameter of the program, controlling how much data is stored in each color level.
                 </p>
             </div>
             <div class="col-lg-6">
@@ -51,7 +50,7 @@ export default{
 .centered-image {
   display: block;
   margin: 0 auto;
-  width: 80%;
+  width: 85%;
 }
 
 .java::before {
