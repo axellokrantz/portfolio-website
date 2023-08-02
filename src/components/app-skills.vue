@@ -14,14 +14,13 @@
                     <ul class="list-unstyled body-copy">
                         <li>JavaScript</li>
                         <li>HTML, CSS</li>
-                        <li>Vue, React</li>
                         <li>Java</li>
                         <li>Elixir</li>
                         <li>PostgreSQL</li>
                         <li>C, C++</li>
                         <li>Python</li>
                         <li>Assembly (MAL)</li>
-                        <li>Linux</li>
+                        <li>R</li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-sm-12 order-sm-2">
@@ -29,12 +28,13 @@
                         Other
                     </p>
                     <ul class="list-unstyled body-copy">
-                        <li>Photoshop</li>
-                        <li>Illustrator</li>
-                        <li>After Effects</li>
-                        <li>Premiere Pro</li>
-                        <li>Cinema 4D</li>
+                        <li>Adobe Suite</li>
+                        <li>Microsoft 365</li>
                         <li>Mathematica</li>
+                        <li>Vue CLI, React</li>
+                        <li>Boostrap</li>
+                        <li>Lucidchart</li>
+                        <li>Astah</li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-sm-12 order-sm-3">

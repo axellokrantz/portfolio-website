@@ -56,8 +56,6 @@ import '../app.css'
   padding: 0px;
   margin: 5px;
 }
-
-
 .first-col{
   background-color: pink;
   padding: 0px;

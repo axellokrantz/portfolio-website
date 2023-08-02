@@ -2,7 +2,7 @@
 
     <div>
         <div class="row">
-            <div class="col-lg-6 first-col">
+            <div class="col-lg-6">
                 <p class="headline-1">
                     Steganography is the practice of concealing information within a medium to avoid detection.
                     As part of the 'Computer Security IV1013' course at KTH I created a steganographic image generator.

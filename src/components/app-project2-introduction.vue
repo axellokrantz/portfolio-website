@@ -1,26 +1,53 @@
 <template>
     <div class="row">
-      <div class="col-lg-3">
-        <h1 class="headline-1">Smart Brew</h1>
-      </div>
+        <div class="col-lg-6 headline-1">
+            Sit amet, consectetur adipiscing elit. Nullam pharetra dapibus mi,
+            dapibus pretium lectus suscipit id.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Nullam pharetra dapibus mi, dapibus
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 body-copy">
+           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pharetra dapibus mi,
+            dapibus pretium lectus suscipit id.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Nullam pharetra dapibus mi, dapibus pretium lectus suscipit id. Sed tincidunt et ligula sed rhoncus.
+            Nullam sed quam metus. Aenean commodo leo at efficitur blandit. Duis consequat, purus non consequat
+            commodo, nisl tellus semper lectus, sit amet imperdiet magna nisi sed lorem. Pellentesque posuere
+            lacinia felis molestie elementum. Vivamus dictum tristique maximus. Fusce sed turpis quam. Orci varius
+            natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        </div>
+        <div class="col-lg-6 body-copy">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pharetra dapibus mi,
+            dapibus pretium lectus suscipit id.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Nullam pharetra dapibus mi, dapibus pretium lectus suscipit id. Sed tincidunt et ligula sed rhoncus.
+            Nullam sed quam metus. Aenean commodo leo at efficitur blandit. Duis consequat, purus non consequat
+            commodo, nisl tellus semper lectus, sit amet imperdiet magna nisi sed lorem. Pellentesque posuere
+            lacinia felis molestie elementum. Vivamus dictum tristique maximus. Fusce sed turpis quam. Orci varius
+            natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        </div>
     </div>
 </template>
 
-<script>
-</script>
+
 
 <style scoped>
     .row{
         padding: 0px;
-        margin: 5px;
-    }
-    .col-lg-3{
-        background-color: yellow;
-        padding: 0px;
         margin: 0px;
+    }
+    .col-lg-6{
+        background-color: yellow;
+        padding-right: 30px;
+        padding-left: 0px;
+        margin: 0 px;
     }
     .col-lg-8{
         padding-bottom: 50px;
-        padding-left: 0px;
     }
+    
+    .headline-1{
+        background-color: pink;
+        padding-bottom: 20px;
+    }
+
 </style>
