@@ -3,7 +3,7 @@
       <div class="row">
         <div class="col-8">
           <div class="headline-1">
-            Hello! I'm Axel Lokrantz Månson, a former art director currently pursuing computer science at KTH Royal Institute of Technology in Stockholm Sweden.
+            Hello! my name is Axel Lokrantz Månson, and I am an art director currently pursuing computer science at KTH Royal Institute of Technology in Stockholm Sweden.
           </div>
         </div>
       </div>
