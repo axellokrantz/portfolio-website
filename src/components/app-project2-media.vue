@@ -1,14 +1,15 @@
 <template>
     <div class="row">
-      <div class="col-lg-6 third-col">
-      <p class="headline-1">
-          Cyberjammer is an online step sequencer that allows users to collaborate on beat-making sessions.
-        </p>
+      <div class="col-12">
+        <img src="@/assets/breakdown.png" class="centered-image">
       </div>
-      <div class="col-lg-6">
-        <p class="info">Created during the course 'Interactive design and the dynamic web' at KTH.
-          <br>Interface was chosen as the best among a pool of over 100 other groups.
-        </p>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <video autoplay muted loop>
+          <source :src="require('@/assets/smartbrew_mobile.mp4')" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
       </div>
       <div class="col-lg-6 first-col">
         <p class="body-copy">Cyberjammer is developed using the Vue framework in the MVP (Model-View-Presenter) architecture, providing an intuitive web interface for creating and manipulating audio.
@@ -26,91 +27,37 @@
           <span class="tag javascript">JavaScript</span>, 
           <span class="tag html">HTML</span>, 
           <span class="tag css">CSS</span>, 
-          <span class="tag vue">Vue</span>
+          <span class="tag react">React</span>
         </p>
         </div>
-
-      <div class="col-lg-6 second-col">
-        <img src="../assets/cyberjammer1.png" class="image"/>
-      </div>
-
     </div>
     
 </template>
 
 <script>
-import '../app.css'
-  export default {
-    name: 'app-project4-description.vue',
-  }
-
+export default {
+  name: 'app-project4-video1',
+};
 </script>
 
 <style scoped>
 
-.image{
-  max-width: 100%;
+.centered-image{
+  width: 100%;
+  padding-bottom: 20px;
 }
 
-.row{
-  padding: 0px;
-  margin: 5px;
+video {
+  width: 100%;
+  padding-bottom: 50px;
 }
-.first-col{
-  background-color: pink;
-  padding: 0px;
-  padding-right: 20px;
-  margin: 0px
-}
-.second-col{
-  background-color: purple;
-  padding: 0px;
+
+.img{
+  width: 100%;
   margin: 0px;
-}
-
-.third-col{
   padding: 0px;
-  margin: 0px;
-  background-color: greenyellow;
 }
 
-.body-copy{
-    font-size: 20px;
-    color: rgb(20, 20, 20);
-    font-weight: medium;
-    text-align: left;
-    line-height: 1.25;
-    margin-left: 0px;
-    text-decoration: none;
-}
-
-.tag::before {
-  content: "";
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  margin-right: 5px;
-}
-
-.javascript::before {
-  background-color: yellow;
-}
-
-.css::before {
-  background-color: purple;
-}
-
-.html::before {
-  background-color: orange;
-}
-
-.vue::before {
-  background-color: green;
-}
-
-.react::before {
-  background-color: gray;
-}
 
 </style>
+

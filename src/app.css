@@ -70,4 +70,34 @@
     font-size: 24px;
     color: black;
   }
+
+  
+.tag::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.javascript::before {
+  background-color: yellow;
+}
+
+.css::before {
+  background-color: purple;
+}
+
+.html::before {
+  background-color: orange;
+}
+
+.vue::before {
+  background-color: green;
+}
+
+.react::before {
+  background-color: gray;
+}
   

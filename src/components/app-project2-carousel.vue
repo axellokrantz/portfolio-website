@@ -23,8 +23,9 @@ export default {
   data() {
     return {
       images: [
+        require('@/assets/montage1.png'),
         require('@/assets/montage2.png'),
-        require('@/assets/montage1.png')
+        require('@/assets/smartbrew_lucid.png')
       ],
       currentIndex: 0,
       isTransitioning: false // New data property to track the transition state
